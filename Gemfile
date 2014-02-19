@@ -56,8 +56,7 @@ end
 group :test do
   gem 'guard'
   gem 'guard-bundler'
-  gem 'guard-rspec'
-  gem 'guard-zeus'
+  gem 'guard-rspec', require: false
   gem "launchy"
   gem "capybara"
   gem 'faker'
