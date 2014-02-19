@@ -4,24 +4,8 @@ development:
   database: supermercados_dev
   template: template0
   pool: 5
-  username: root
-  password: root
+  username: postgres
+  password: 123
   host: localhost
 
-test:
-  adapter: postgresql
-  encoding: unicode
-  database: supermercados_test
-  template: template0
-  pool: 5
-  username: root
-  password: root
-  host: localhost
 
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: supermercados_prod
-  pool: 5
-  username: root
-  password: root
