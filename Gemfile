@@ -42,6 +42,8 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'foundation-rails','~>5.0.0'
+
 group :development, :test do
   gem 'rspec-rails'
   gem "factory_girl_rails"
