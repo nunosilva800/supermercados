@@ -43,6 +43,7 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'foundation-rails', '>= 5.0.0'
+gem "font-awesome-rails", "~> 4.0.3.1"
 
 group :development, :test do
   gem 'rspec-rails'
