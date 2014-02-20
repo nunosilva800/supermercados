@@ -224,7 +224,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   factory_girl_rails
   faker
-  foundation-rails (~> 5.0.0)
+  foundation-rails (>= 5.0.0)
   guard
   guard-bundler
   guard-rspec
