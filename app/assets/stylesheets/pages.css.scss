@@ -1,7 +1,12 @@
 @import "foundation/components/top-bar";
 
+.top-bar{
+  margin-bottom: 20px;
+}
+
 footer {
   background-color: $topbar-dropdown-bg;
+  margin-top: 20px;
   padding: 10px;
   color: white;
 }
