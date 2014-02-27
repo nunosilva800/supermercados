@@ -42,7 +42,7 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'foundation-rails', '>= 5.0.0'
+gem 'foundation-rails', '~> 5'
 gem "font-awesome-rails", "~> 4.0.3.1"
 
 group :development, :test do
