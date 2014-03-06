@@ -1,7 +1,10 @@
 @import "foundation/components/top-bar";
 
-.top-bar{
+nav.top-bar{
   margin-bottom: 20px;
+  i {
+    padding-right: 1em;
+  }
 }
 
 footer {
