@@ -1,5 +1,15 @@
+html, body {
+  height: 100%;
+}
+html {
+  overflow-y: hidden;
+}
 body {
+  overflow-y: scroll;
   background-color: #BCEEE4;
+  background-image: asset-url('fundo.png');
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .stick-to-bottom {
