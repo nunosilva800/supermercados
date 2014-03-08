@@ -1,7 +1,19 @@
+<div class="small-6 small-centered columns">
+    <%= form_tag root_path, method: :get do %>
+        <%= label_tag :search, "Pesquisa" %>
+        <%= text_field_tag :search %>
+        <%= submit_tag "OK" %>
+    <% end %>
+      
+
+</div>
+
 <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
-  <% 18.times do %>
+  <% @products.each do |p| %>
     <li>
-      <span>Produto</span>
+      <p><%= p.description %></p>
+      <p><%= p.department.name %></p>
+      <p><%= p.bar_code %></p>
       <div>
         <img src="http://placehold.it/320x190">
       </div>
